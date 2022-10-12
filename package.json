@@ -1,0 +1,7 @@
+{
+  "name": "bw-vscode-tsc",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
