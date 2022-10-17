@@ -35,7 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/react", "npm:18.0.21"],\
             ["react", "npm:18.2.0"],\
-            ["tsc", "npm:2.0.4"]\
+            ["tsc", "npm:2.0.4"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -77,7 +78,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bw-vscode-tsc", "workspace:."],\
             ["@types/react", "npm:18.0.21"],\
             ["react", "npm:18.2.0"],\
-            ["tsc", "npm:2.0.4"]\
+            ["tsc", "npm:2.0.4"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -125,6 +127,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tsc-npm-2.0.4-e331b066cb-50b1024088.zip/node_modules/tsc/",\
           "packageDependencies": [\
             ["tsc", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-5b3c915f01-563a0ef47a.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"]\
           ],\
           "linkType": "HARD"\
         }]\
